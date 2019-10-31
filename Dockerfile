@@ -6,7 +6,7 @@ EXPOSE 5050
 
 RUN [ "cross-build-start" ]
 
-RUN pip3 install appdaemon
+RUN pip3 install appdaemon==4.0.0b2
 RUN pip3 install ics
 
 # hack to support symlinks in static folders
